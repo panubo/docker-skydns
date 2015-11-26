@@ -1,6 +1,6 @@
 FROM alpine:3.2
 
-ENV SKYDNS_VERSION "2.5.2b"
+ENV SKYDNS_VERSION "2.5.2c"
 
 RUN export GOPATH=/usr && \
   apk update && \
